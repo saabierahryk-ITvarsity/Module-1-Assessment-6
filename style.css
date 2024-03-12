@@ -1,0 +1,200 @@
+
+.logo img{
+    width:200px;
+    height:200px;
+    position:absolute;
+    bottom: 0;
+    top: 8px;;
+    left:0;
+    right:0;
+}
+
+
+  img{
+    width:325px;
+    height:325px;
+}
+  
+table, th, td {
+  border: 1px solid black;
+  border-collapse: collapse;
+  text-align: center;
+  font-size: large;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+table{
+  width:50%;
+}
+
+.nav{
+  width:auto;
+  background-color: #ff5658;
+  padding:86px;
+  margin-left: 150px;
+  
+}
+
+.links a{
+  text-decoration: none;
+  color:  white ;
+  font-size :20px;
+  font-family: Arial, Helvetica, sans-serif ;
+  font-weight: 900;
+}
+
+h2{
+  font-size :30px;
+  font-family: Arial, Helvetica, sans-serif ;
+  font-weight: 900;
+  color:	#1e1e1e ;
+}
+
+h1{
+  font-size :30px;
+  font-family: Arial, Helvetica, sans-serif ;
+  font-weight: 900;
+  color:	#1e1e1e ;
+}
+
+h4{
+  font-family: Arial;
+}
+
+.attributions a{
+  text-decoration: none;
+  color:	#1e1e1e;
+}
+
+.attributions p{
+  font-size: small;
+}
+
+.attributions a:hover{
+  color:#ff5658;
+}
+
+a:hover{
+  color: #1e1e1e;
+}  
+
+.price p{
+  font-size: x-large;
+}
+
+.box{
+  width:200px;
+  height:45px;
+  border: 1px solid black;
+  padding:20px;
+  margin:10px;
+  font-size:large;
+  font-family: Arial, Helvetica, sans-serif;
+  margin-right: 200px;
+}
+
+p{
+  font-size: large;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.reference p{
+  font-size: large;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.reference a{
+  text-decoration: none;
+}
+
+.reference a:hover{
+  color: #ff5658;
+}
+
+.gallery img{
+  width:400px;
+  height:400px;
+}
+
+.button a{
+  text-decoration: none;
+  display: flex;
+  padding: 20px;
+  background-color: #00a300;
+  width:fit-content;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: bold;
+  font-size: 18px;
+  color: white;
+  border-radius: 10px;
+  float:left;
+  margin-top: 18px;
+}
+
+.button a:hover{
+  background-color:green;
+}
+
+.container{
+  display: inline-flex;
+}
+
+.contact{
+  text-align: center;
+}
+
+.contact a{
+  color: black;
+}
+
+.contact a:hover{
+  color: red;
+}
+
+form{
+  width: 200px;
+  margin:30px;
+  display: flex;
+  flex-direction: column;
+  padding: 50px;
+  padding-left: 36%;
+
+}
+
+.field-1{
+  width:300px;
+  height:30px;
+  margin-top: 10px;
+  margin-bottom: 20px;
+}
+
+.field-2{
+  width:300px;
+  height:30px;
+  margin-top: 10px;
+  margin-bottom: 20px;
+}
+.field-3{
+  width:300px;
+  height:60px;
+  margin-top: 10px;
+  
+}
+
+.send-button a{
+  text-decoration: none;
+  padding: 17px;
+  background-color: #fa4c4f;
+  width:fit-content;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: bold;
+  font-size: 15px;
+  color: white;
+  border-radius: 10px;
+  float:center;
+  margin-left: 40%;
+}
+
+.send-button a:hover{
+  background-color: #e62b2b;
+}
